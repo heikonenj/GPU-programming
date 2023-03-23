@@ -504,6 +504,19 @@ CUDA
 HIP
 ^^^
 
+HIP (Heterogeneous computing Interface for Portability) is basically an AMD version of CUDA that works on both AMD and Nvidia GPUs. 
+It's a kernel programming language and runtime API for C++. 
+HIP is almost one-to-one with CUDA to the extent that there are source-to-source tools available for easy conversion from CUDA to HIP. 
+Additionally AMD offers a number of optimized libraries, which closely correspond to Nvidia ones.
+
+As with CUDA the GPU is called a device and the CPU a host.
+
+HIP with Fortran
+^^^^^^^^^^^^^^^^
+
+Hipifying or translating CUDA to HIP
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Pros and cons of native programming models
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
